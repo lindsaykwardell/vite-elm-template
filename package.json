@@ -1,0 +1,16 @@
+{
+  "name": "vite-elm-template",
+  "author": "Lindsay Wardell",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.1.5"
+  },
+  "dependencies": {
+    "rollup-plugin-elm": "^3.0.0"
+  }
+}
