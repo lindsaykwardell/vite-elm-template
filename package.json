@@ -5,11 +5,13 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "postinstall": "elm-tooling install",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
   "devDependencies": {
+    "elm-tooling": "^1.0.2",
     "vite": "^2.5.1",
     "vite-plugin-elm": "^2.4.3"
   },
