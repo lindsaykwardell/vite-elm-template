@@ -1,19 +1,16 @@
 module Main exposing (main)
 
 import Browser
-import Html exposing (Html, a, button, code, div, h1, img, p, text)
-import Html.Attributes exposing (href, src, style)
-import Html.Events exposing (onClick)
+import Html exposing (Html, div, img)
+import Html.Attributes exposing (src, style)
+import Html.Events exposing (..)
+import Msg exposing (Msg(..))
+import HelloWorld exposing (helloWorld)
 
 
 main : Program () Int Msg
 main =
     Browser.sandbox { init = 0, update = update, view = view }
-
-
-type Msg
-    = Increment
-    | Decrement
 
 
 update : Msg -> number -> number
@@ -30,18 +27,5 @@ view : Int -> Html Msg
 view model =
     div []
         [ img [ src "./src/assets/logo.png", style "width" "300px" ] []
-        , div []
-            [ h1 [] [ text "Hello, Vite + Elm!" ]
-            , p []
-                [ a [ href "https://vitejs.dev/guide/features.html" ] [ text "Vite Documentation" ]
-                , text " | "
-                , a [ href "https://guide.elm-lang.org/" ] [ text "Elm Documentation" ]
-                ]
-            , button [ onClick Increment ] [ text ("count is: " ++ String.fromInt model) ]
-            , p []
-                [ text "Edit "
-                , code [] [ text "src/Main.elm" ]
-                , text " to test auto refresh"
-                ]
-            ]
+        , helloWorld model
         ]
