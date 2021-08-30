@@ -8,9 +8,8 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "vite": "^2.1.5"
+    "vite": "^2.4.1",
+    "vite-plugin-elm": "^2.4.1"
   },
-  "dependencies": {
-    "rollup-plugin-elm": "^3.0.0"
-  }
+  "dependencies": {}
 }

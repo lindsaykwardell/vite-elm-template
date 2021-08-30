@@ -1,9 +1,6 @@
-import elm from 'rollup-plugin-elm'
+import { defineConfig } from "vite";
+import elmPlugin from "vite-plugin-elm";
 
-export default {
-  plugins: [
-    elm({
-      exclude: 'elm_stuff/**'
-    })
-  ]
-}
+export default defineConfig({
+  plugins: [elmPlugin()],
+});
