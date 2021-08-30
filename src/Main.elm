@@ -26,6 +26,6 @@ update msg model =
 view : Int -> Html Msg
 view model =
     div []
-        [ img [ src "./src/assets/logo.png", style "width" "300px" ] []
+        [ img [ src "/logo.png", style "width" "300px" ] []
         , helloWorld model
         ]
