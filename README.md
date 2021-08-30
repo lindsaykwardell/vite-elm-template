@@ -6,6 +6,8 @@ A default template for building Elm applications using Vite. Includes hot-module
 
 > Elm is a functional language that compiles to JavaScript. It helps you make websites and web apps. It has a strong emphasis on simplicity and quality tooling.
 
+Live demo site: https://vite-elm-template.netlify.app/
+
 ## Get Started
 
 ```bash
