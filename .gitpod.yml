@@ -1,0 +1,3 @@
+tasks:
+  - init: npm install && npm run build
+    command: npx elm-tooling install && npm run dev
