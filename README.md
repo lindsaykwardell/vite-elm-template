@@ -1,5 +1,6 @@
 # Vite Elm Template
 
+[![ci](https://github.com/lindsaykwardell/vite-elm-template/actions/workflows/ci.yml/badge.svg)](https://github.com/lindsaykwardell/vite-elm-template/actions/workflows/ci.yml)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/lindsaykwardell/vite-elm-template)
 
 A default template for building Elm applications using Vite. Includes hot-module reload of Elm modules (courtesy of `vite-plugin-elm`).
