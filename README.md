@@ -24,7 +24,7 @@ Live demo site: https://vite-elm-template.netlify.app/
 
 ```bash
 # Clone the template locally, removing the template's Git log
-npx degit lindsaykwardell/vite-elm-template my-elm-app
+npx degit lindsaykwardell/vite-elm-template#main my-elm-app
 
 # Enter the project, install dependencies, and get started!
 cd my-elm-app
