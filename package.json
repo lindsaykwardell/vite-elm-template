@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "elm-tooling": "^1.7.0",
+    "netlify-plugin-cache": "^1.0.3",
     "vite": "^2.9.0",
     "vite-plugin-elm": "^2.5.2"
-  },
-  "dependencies": {}
+  }
 }
