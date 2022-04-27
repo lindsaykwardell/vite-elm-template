@@ -1,11 +1,10 @@
 module Main exposing (main)
 
 import Browser
+import HelloWorld exposing (helloWorld)
 import Html exposing (Html, div, img)
 import Html.Attributes exposing (src, style)
-import Html.Events exposing (..)
 import Msg exposing (Msg(..))
-import HelloWorld exposing (helloWorld)
 
 
 main : Program () Int Msg
