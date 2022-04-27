@@ -16,7 +16,7 @@ Live demo site: https://vite-elm-template.netlify.app/
 - Hot Module Reload of all code in the app (including Elm)
 - Tooling installation via elm-tooling
   - Includes Elm, elm-format, elm-json, and elm-test-rs
-- Basic unit test examples
+- Basic unit test and elm-review examples
 - Github Actions CI for running tests
 - Recommends the Elm VS Code extension
 
