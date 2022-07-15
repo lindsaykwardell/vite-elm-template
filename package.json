@@ -14,8 +14,8 @@
     "test": "elm-test-rs"
   },
   "devDependencies": {
-    "elm-review": "^1.0.2",
     "elm-tooling": "^1.8.0",
+    "elm-review": "^2.7.3",
     "vite": "^2.9",
     "vite-plugin-elm": "^2.6.1"
   },
