@@ -26,7 +26,7 @@ For a single page app (SPA) version of this template, check out [`vite-elm-spa`]
 
 ```bash
 # Clone the template locally, removing the template's Git log
-npx degit lindsaykwardell/vite-elm-template#main my-elm-app
+npx tiged lindsaykwardell/vite-elm-template my-elm-app
 
 # Enter the project, install dependencies, and get started!
 cd my-elm-app
