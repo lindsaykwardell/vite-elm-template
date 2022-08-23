@@ -13,12 +13,13 @@ Live demo site: https://vite-elm-template.netlify.app/
 
 ## Features
 
-- Hot Module Reload of all code in the app (including Elm)
-- Tooling installation via elm-tooling
+- [Hot Module Reload](https://github.com/hmsk/vite-plugin-elm) of all code in the app (including Elm)
+- [Integration with Vite static asset handling](https://package.elm-lang.org/packages/hmsk/elm-vite-plugin-helper/latest/)
+- Tooling installation via [elm-tooling](https://elm-tooling.github.io/elm-tooling-cli/)
   - Includes Elm, elm-format, elm-json, and elm-test-rs
-- Basic unit test and elm-review examples
+- Basic unit test and [elm-review](https://package.elm-lang.org/packages/jfmengels/elm-review/latest/) examples
 - Github Actions CI for running tests
-- Recommends the Elm VS Code extension
+- Recommends the [Elm VS Code extension](https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode)
 
 For a single page app (SPA) version of this template, check out [`vite-elm-spa`](https://github.com/lindsaykwardell/vite-elm-spa)
 
