@@ -5,6 +5,7 @@ import HelloWorld exposing (helloWorld)
 import Html exposing (Html, div, img)
 import Html.Attributes exposing (src, style)
 import Msg exposing (Msg(..))
+import VitePluginHelper
 
 
 main : Program () Int Msg
@@ -25,6 +26,6 @@ update msg model =
 view : Int -> Html Msg
 view model =
     div []
-        [ img [ src "/logo.png", style "width" "300px" ] []
+        [ img [ src <| VitePluginHelper.asset "/src/assets/logo.png?inline", style "width" "300px" ] []
         , helloWorld model
         ]
