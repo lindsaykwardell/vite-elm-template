@@ -1,7 +1,7 @@
 {
   "name": "vite-elm-template",
   "author": "Lindsay Wardell",
-  "description": "A staring template for building Elm apps with Vite",
+  "description": "A default template for building Elm applications using Vite.",
   "version": "1.7.0",
   "license": "MIT",
   "scripts": {
