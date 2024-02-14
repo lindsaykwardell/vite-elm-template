@@ -15,12 +15,10 @@
     "test": "elm-test-rs"
   },
   "devDependencies": {
+    "elm-debug-transformer": "^1.2.1",
     "elm-review": "^2.10.3",
     "elm-tooling": "^1.15.0",
     "vite": "^5.1.2",
     "vite-plugin-elm": "^3.0.0"
-  },
-  "dependencies": {
-    "elm-debug-transformer": "^1.2.1"
   }
 }
