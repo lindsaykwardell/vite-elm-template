@@ -1,7 +1,7 @@
 module HelloWorld exposing (helloWorld)
 
 import Html exposing (Html, a, button, code, div, h1, p, text)
-import Html.Attributes exposing (href)
+import Html.Attributes exposing (href, style)
 import Html.Events exposing (onClick)
 import Msg exposing (Msg(..))
 
@@ -15,9 +15,16 @@ helloWorld model =
             , text " | "
             , a [ href "https://guide.elm-lang.org/" ] [ text "Elm Documentation" ]
             ]
-        , button [ onClick Increment ] [ text "+" ]
-        , text <| "Count is: " ++ String.fromInt model
-        , button [ onClick Decrement ] [ text "-" ]
+        , div
+            [ style "display" "flex"
+            , style "justify-content" "center"
+            , style "align-items" "center"
+            , style "gap" "1rem"
+            ]
+            [ button [ onClick Increment ] [ text "+" ]
+            , text <| "Count is: " ++ String.fromInt model
+            , button [ onClick Decrement ] [ text "-" ]
+            ]
         , p []
             [ text "Edit "
             , code [] [ text "src/Main.elm" ]
