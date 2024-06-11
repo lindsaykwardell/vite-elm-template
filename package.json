@@ -12,7 +12,8 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "elm-review",
-    "test": "elm-test-rs"
+    "test": "elm-test-rs",
+    "upgrade": "elm-json upgrade && cd review && elm-json upgrade && cd .."
   },
   "devDependencies": {
     "elm-debug-transformer": "^1.2.1",
