@@ -21,8 +21,6 @@ Live demo site: https://vite-elm-template.netlify.app/
 - Github Actions CI for running tests
 - Recommends the [Elm VS Code extension](https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode)
 
-For a single page app (SPA) version of this template, check out [`vite-elm-spa`](https://github.com/lindsaykwardell/vite-elm-spa)
-
 ## Get Started
 
 ```bash
